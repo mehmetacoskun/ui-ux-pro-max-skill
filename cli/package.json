@@ -1,4 +1,4 @@
-{
+node dist/index.js init --ai claude --offline{
   "name": "uipro-cli",
   "version": "2.5.0",
   "description": "CLI to install UI/UX Pro Max skill for AI coding assistants",
@@ -34,8 +34,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "commander": "^12.1.0",
+    "build": "^0.1.4",
     "chalk": "^5.3.0",
+    "commander": "^12.1.0",
     "ora": "^8.1.1",
     "prompts": "^2.4.2"
   },

@@ -1,0 +1,10 @@
+# flutter pub outdated
+# flutter run -d chrome
+# flutter run -d chrome --web-browser-flag "--disable-web-security"
+# flutter run -d chrome --web-renderer html --web-port=8081 --web-hostname 0.0.0.0
+
+flutter clean
+flutter pub get
+flutter run -d chrome --web-renderer html --web-port=8081 --web-hostname 0.0.0.0
+
+
